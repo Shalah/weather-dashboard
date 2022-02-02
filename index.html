@@ -12,17 +12,37 @@
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
-    <header class="container-fluid text-center text-dark bg-primary p-2">
+
+    <header class = "bg-dark text-white text-center p-2">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-light">
+                <p class="search-header my-1">Search for a city</p>
+                <div class="input-group mb-3">
+                    <input id="city-input" type="text" class="form-control" placeholder="Enter city name" aria-label="Enter city name">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <header class="container-fluid text-center text-dark bg-primary p-2">
         <h1>HTML working!</h1>
     </header>
 
     <aside class="container-fluid p-2">
         <p> Search for a City: </p>
         <form action="#">
-            <!-- <label for="fname">First name:</label>
+            <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"> -->
 
-            <label for="input-text"></label>
+            <!-- <label for="input-text"></label>
             <input type="text" id="input-text" placeholder="New York City"> <br><br>
             
             <button type="submit" id="search-btn">Search</button>
@@ -31,7 +51,7 @@
 
     <div id="the-Body">
         <p></p>
-    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>

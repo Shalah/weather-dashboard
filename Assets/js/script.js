@@ -10,6 +10,10 @@ var forecast2 = "https://api.openweathermap.org/data/2.5/onecall?lat=40.7143&lon
 
 //var body = document.getElementsByNames('body');
 
+
+
+
+/*
 fetch(API_URL)
     .then (function(response){
         return response.json()
@@ -19,7 +23,7 @@ fetch(API_URL)
         let info = document.createElement('p')
         console.log(data)
         info.setAttribute('src', data.main)
-        info.textContent = 'test'
+        info.textContent = data.main
         //body.append(info);
         $('#the-Body').append(info)
     })
@@ -41,3 +45,8 @@ fetch(forecast2)
     .then(function(newData2){
         console.log(newData2)
     })
+
+
+    */
+   
+
